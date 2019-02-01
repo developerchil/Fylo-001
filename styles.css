@@ -16,27 +16,26 @@
 
  .flex-container > div {
   margin: 30px;
-  padding: 20px;
   text-align: center;
-  width: 500px;
+  width: 250px;
+  line-height: 30px;
   font-size: 16px;
+  background-color: chartreuse
  }
 
- 
+ .left {
+     min-width: 30%;
+    text-align: center;
+    padding: 10px 0px;
+ }
 
- 
-
- .right > ul li a {
-     padding: 0px 10px;
-     margin: 0px 40px;
-     text-decoration: none;
+ .flex-container a {
      color: white;
-     
+     text-decoration: none;
      
  }
 
- .right ul {
-     list-style-type: none;
-     display: inline-flex;
 
- }
+ 
+
+ 
