@@ -7,15 +7,14 @@
      color: white;
  }
 
- .flex-nav {
+ .flex-container {
      display: flex;
-     justify-content: space-between;
-     margin-top: 50px;
+     justify-content: space-around;
      font-family: 'Raleway', sans-serif;
      max-width: 1440px;
  }
 
- nav > div {
+ .flex-container > div {
   margin: 30px;
   padding: 20px;
   text-align: center;
